@@ -1,0 +1,21 @@
+{
+  "name": "qa-engineering-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test tests/smoke",
+    "test:smoke:ui": "playwright test tests/smoke/smoke.spec.ts",
+    "test:smoke:api": "playwright test tests/smoke/api.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
