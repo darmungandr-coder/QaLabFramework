@@ -1,0 +1,16 @@
+export const loginCopy = {
+  title: "Login",
+  usernameLabel: "Username",
+  passwordLabel: "Password",
+  usernamePlaceholder: "Your username",
+  passwordPlaceholder: "Your password",
+  logIn: "Log In",
+  switchToEmail: "Send me an email",
+  switchToPassword: "Use username and password",
+  emailLabel: "Email",
+  emailPlaceholder: "email@example.org",
+  emailHint: "We will send you a link to login - if you are registered",
+  sendEmail: "Send Email",
+  failureTitle: "Login failed",
+  failureMessage: "Check your input and try again.",
+} as const;
